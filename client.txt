@@ -1,0 +1,26 @@
+1. Register
+2. Login
+3. Sell
+4. Show Players put up on sell
+5. Show Players to Buy
+6. Buy A player
+7. All players
+Your option: Enter your name for register: 
+Enter your password for register: 
+1. Register
+2. Login
+3. Sell
+4. Show Players put up on sell
+5. Show Players to Buy
+6. Buy A player
+7. All players
+Your option: Enter your name for login: 
+Enter your password for login: 
+1. Register
+2. Login
+3. Sell
+4. Show Players put up on sell
+5. Show Players to Buy
+6. Buy A player
+7. All players
+Your option: java.net.SocketException: Connection reset

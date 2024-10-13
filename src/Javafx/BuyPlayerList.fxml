@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="720.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="Javafx.BuyPlayerListController">
+   <children>
+       <TableView fx:id="BuyplayerTableView" layoutX="14.0" layoutY="52.0" prefHeight="400.0" prefWidth="680.0">
+           <columns>
+               <TableColumn fx:id="Name" prefWidth="98.39999103546143" text="Name" />
+            <TableColumn fx:id="Club" prefWidth="99.20001220703125" text="Club" />
+               <TableColumn fx:id="Country" prefWidth="76.80000305175781" text="Country" />
+               <TableColumn fx:id="Age" prefWidth="34.4000244140625" text="Age" />
+               <TableColumn fx:id="Height" prefWidth="49.60003662109375" text="Height" />
+               <TableColumn fx:id="Position" prefWidth="70.39996337890625" text="Position" />
+               <TableColumn fx:id="Number" prefWidth="56.0" text="Number" />
+               <TableColumn fx:id="Weekly_Salary" minWidth="0.0" prefWidth="100.79998779296875" text="Weekly Salary" />
+            <TableColumn fx:id="Price" prefWidth="90.4000244140625" text="Price" />
+           </columns>
+       </TableView>
+      <Button fx:id="BuyButton" layoutX="245.0" layoutY="484.0" mnemonicParsing="false" onAction="#BuyButtonClicked" text="Buy" />
+      <Button fx:id="GoBackButton" layoutX="420.0" layoutY="484.0" mnemonicParsing="false" onAction="#GoBackButtonClicked" text="Go Back" />
+   </children>
+</AnchorPane>
